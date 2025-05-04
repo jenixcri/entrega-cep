@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffe4e1; /* rosa bebê */
+  color: #000000; /* fonte preta */
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #ffb6c1; /* rosa claro para o botão */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ff8da1; /* tom mais escuro no hover */
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+.resultado-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.resultado {
+  text-align: left;
+  background-color: #fff0f5; /* um rosa muito claro de fundo */
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
